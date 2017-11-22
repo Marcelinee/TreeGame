@@ -1,0 +1,65 @@
+@media screen and (max-width: 150px) {
+  table {
+  width: 100%;}
+  	height: 300px;
+	width: 300px;
+	
+	td {
+	padding:0px 1px 0 0px;
+}	
+}
+
+@media screen and (min-width: 151px) and (max-width: 550px) {
+  table {
+  width: 80%;}
+  	height: 300px;
+	width: 300px;
+}
+
+@media screen and (min-width: 551px) {
+  table {
+  width: 60%;}
+	height: 600px;
+	width: 600px;
+}
+
+.tablediv {
+	width:100%;
+}
+.tree {
+	max-width: 100%;
+	height: auto;
+}
+
+table, th, td {
+
+}
+
+td {
+	padding:8px 1px 0 10px;
+}
+
+
+body {
+
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 70px;
+	background-color: #242424;
+	font-family: 'Montserrat', sans-serif;
+}
+button {
+	 margin:auto;
+	display:block;
+	font-family: 'Montserrat', sans-serif;
+	background-color: white;
+	border: 3px solid #4CAF50;
+	padding: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+table {
+	margin: auto;
+	display: block;
+	border-collapse: collapse;
+}
