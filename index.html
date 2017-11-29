@@ -8,7 +8,7 @@
 	<link href="css/style.css" rel="stylesheet">
 </head>
 
-<body id="bla"> 
+<body id="frame"> 
 
 	<div>
 		<table class="treetable">
@@ -43,8 +43,8 @@ function loadGame() {
 xhr.open('get', 'trees.html', true);
 xhr.onreadystatechange = function() {
     if (xhr.readyState == 4 && xhr.status == 200) { 
-        document.getElementById("bla").innerHTML = xhr.responseText;
-		document.getElementById("bla").onload = randomimage();
+        document.getElementById("frame").innerHTML = xhr.responseText;
+		document.getElementById("frame").onload = randomimage();
     } 
 }
 xhr.send();
