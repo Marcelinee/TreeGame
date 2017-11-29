@@ -1,28 +1,33 @@
-@media screen and (max-width: 150px) {
-		td {
-		padding:0px 1px 0 0px;
-	}	
-}
-
 @media screen and (min-width: 151px) and (max-width: 550px) {
 	table {
+		width: 300px;
+	}
+	.treetable {
+		width: 200px;
+	}
+	.rules {
 		width: 300px;
 	}
 }
 
 @media screen and (min-width: 551px) {
 	table {
-		width: 500px;
+		width: 497px;
+	}
+	.treetable {
+		width: 300px;
+	}
+	.rules {
+		width: 300px;
 	}
 }
 .treetable {
-	width:20%;
+	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
+	border-spacing: 0;
 }
-.tablediv {
-	width:100%;
-}
+
 .tree {
 	max-width: 100%;
 	height: auto;
@@ -33,23 +38,18 @@
 	margin-right: auto;
 	margin-left: auto;
 	font-weight: 100;
-	width: 20%;
+	max-width: 100%;
 	color: white;
 }
 
-td {
-	padding:8px 1px 0 10px;
-}
-
-
 body {
-
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 70px;
 	background-color: #242424;
 	font-family: 'Montserrat', sans-serif;
 }
+
 button {
 	margin: auto;
 	display: block;
@@ -62,8 +62,13 @@ button {
 }
 
 table {
-	margin: auto;
+	table-layout: fixed;
+	max-width: 100%;
 	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-spacing: 3px;
+	line-height: 0;
 }
 
 .start {
