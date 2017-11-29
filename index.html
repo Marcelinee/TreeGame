@@ -10,8 +10,27 @@
 
 <body id="bla"> 
 
-<button type="button" onclick=loadGame()>Start</button>
-<div class="rules"><p>There are 9 trees, chosen randomly from three kinds. Your task is to change all trees to one kind. Clicking on a tree changes the tree itself and trees in its direct neighborhood.  </p></div>
+	<div>
+		<table class="treetable">
+			<tr>
+				<td><img class="tree" src="images/tree1.jpg"></td>
+				<td><img class="tree" src="images/tree1.jpg"></td>
+				<td><img class="tree" src="images/tree2.jpg"></td>
+			</tr>
+			<tr>
+				<td><img class="tree" src="images/tree3.jpg"></td>
+				<td><img class="tree" src="images/tree1.jpg"></td>
+				<td><img class="tree" src="images/tree2.jpg"></td>
+			</tr>
+				<tr>
+				<td><img class="tree" src="images/tree2.jpg"></td>
+				<td><img class="tree" src="images/tree2.jpg"></td>
+				<td><img class="tree" src="images/tree3.jpg"></td>
+			</tr>
+		</table>
+	</div>
+	<div class="rules"><p>After clicking <span class="start">Start</span> you will be presented a forest like the one above. In this forest there are 3 kinds of trees. Your task is to change all trees to the same kind by clicking them- beware, that clicking on a tree changes not only the tree itself, but also trees in its direct neighborhood.  </p></div>
+	<button type="button" onclick=loadGame()>Start</button>
 </body>
 <script type="text/javascript">
 var images = ["tree1.jpg", "tree2.jpg", "tree3.jpg"];
